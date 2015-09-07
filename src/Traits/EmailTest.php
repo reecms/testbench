@@ -15,7 +15,7 @@ trait EmailTest
      * 
      * Call this method before using any of `expect*` methods in this trait.
      */
-    protected function mockMailService()
+    protected function initMailService()
     {
         $this->_mailer = $this->getMockBuilder(\Swift_Mailer::class)
             ->disableOriginalConstructor()
