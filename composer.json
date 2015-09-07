@@ -1,0 +1,23 @@
+{
+    "name": "reecms/testbench",
+    "description": "Some utilities to test ReeCMS",
+    "keywords": ["reecms", "testing"],
+    "license": "Apache-2.0",
+    "authors": [
+    {
+        "name": "Hieu Le",
+        "email": "letrunghieu.cse09@gmail.com",
+        "homepage": "http://www.hieule.info"
+    }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ree\\Testbench\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
